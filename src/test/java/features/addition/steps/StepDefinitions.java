@@ -15,7 +15,7 @@ public class StepDefinitions {
     }
 
     @When("add {int} and {int}")
-    public void add_and(Integer number1, Integer number2) {
+    public void addTwoNumbers(Integer number1, Integer number2) {
         CalculatorState.result = calculator.add(number1,number2);
     }
 }
